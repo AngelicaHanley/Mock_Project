@@ -4,5 +4,9 @@ import react from '@vitejs/plugin-react'
 
 // https://vite.dev/config/
 export default defineConfig({
-  plugins: [react(), tailwindcss()],
-})
+    base: "/Agency_Team1_Mock_Project/",
+    plugins: [react(), tailwindcss()],
+    //plugins: [react()],
+   // base: '/Agency_Team1_Mock_Project/',
+ //plugins: [react()],
+});
